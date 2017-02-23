@@ -78,10 +78,10 @@
 	
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 
 	.uni__size {
-		width: 1170px;
+		width: 1250px;
 	}
 
 	.image-descr__h2 {
