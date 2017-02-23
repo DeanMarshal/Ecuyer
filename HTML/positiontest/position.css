@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-cube {
+	width: 30rem;
+	height: 30rem;
+	background-color: #c9c9c9;
+	color: #fff;
+}
+
+.first-cube {
+	width: 15rem;
+	height: 15rem;
+	background-color: #282828;
+}
+
+.second-cube {
+	width: 7.5rem;
+	height: 7.5rem;
+	background-color: #fff;
+}
+
+
+
+

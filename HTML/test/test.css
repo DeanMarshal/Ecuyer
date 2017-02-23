@@ -1,0 +1,83 @@
+img {
+	display: block;
+	max-width: 100%;
+}
+.uni__size {
+	width: 1210px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+  margin-left: auto;
+	margin-right: auto;
+}
+
+.wrap-sect {
+   justify-content: space-between;
+	
+}
+
+.image{
+	width: 100%;		
+	background-color: #222;
+	/*position: relative;*/
+}
+
+/*COLUMN PARAM*/
+.wrap-section__bars {
+	width: 23.5%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+  justify-content: space-between;
+
+}
+.wrap-section__middle-bar {
+	width: 49.5%;
+}
+/*END COLUMN PARAM*/
+.wrap-section__bars_headline {
+	text-align: center;
+}
+
+
+.wrap-section__bars_headline {
+	left: 10px;
+	bottom: 52px;
+}
+
+ .wrap-section__middle-bar_headline {
+	bottom: 60px;
+	left: 230px;
+} 
+
+/*Более точное позиционирование!!!*/
+.wrap-section__bars_headline_mod {
+	left: 90px;
+}
+/*Конец блока*/
+.wrap-section__bars_headline,
+.wrap-section__middle-bar_headline,
+
+.wrap-section__bars_descr,
+.wrap-section__middle-bar_descr{
+	/*position: absolute;*/
+	color: #000;
+}
+.wrap-section__bars_descr {
+	bottom: 24px;
+	left: 107px;
+}
+.wrap-section__middle-bar_descr {
+	left: 270px;
+	top: 550px;
+}
+/*BUTTON*/
